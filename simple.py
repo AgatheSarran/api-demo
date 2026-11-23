@@ -8,6 +8,6 @@ def index():              # The Python function with your code
     return {'ok': False}   # The return will be serialized into JSON
 
 @app.get('/predict')
-def predict(day_of_week, hour):
+def predict(day_of_week: int, hour:int):
     prediction = day_of_week * hour
     return {'wait': prediction}
