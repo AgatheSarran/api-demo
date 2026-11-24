@@ -8,7 +8,7 @@ app = FastAPI()
 def root():
     response = {
         'greeting': 'Hello batch 2376!',    # This is a typical Bavarian greeting ;)
-        # 'timestamp': datetime.now()
+        'timestamp': datetime.now()
     }
 
     return response
