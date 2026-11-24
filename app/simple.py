@@ -7,8 +7,7 @@ app = FastAPI()
 @app.get('/')               # The decorator defines the route used in an API request
 def root():
     response = {
-        'greeting': 'Hello batch 2376!',    # This is a typical Bavarian greeting ;)
-        'timestamp': datetime.now()
+        'greeting': 'Hello batch 2376!!'
     }
 
     return response
