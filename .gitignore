@@ -8,3 +8,18 @@ wheels/
 
 # Virtual environments
 .venv
+
+# environment variables
+.env
+
+# models
+models/*
+
+# data
+raw_data/*
+data/*
+*.csv
+
+# notebooks
+notebooks/*
+*.ipynb
